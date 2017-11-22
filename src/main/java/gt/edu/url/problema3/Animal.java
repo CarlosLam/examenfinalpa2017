@@ -16,7 +16,6 @@ public class Animal {
 		this(old.type, old.age, old.weight, old.skinColor);
 	}
 	
-	
 	public Animal(String type, int age, double weight, String skinColor) {
 		super();
 		this.type = type + "";
@@ -24,9 +23,7 @@ public class Animal {
 		this.weight = weight;
 		this.skinColor = skinColor + "";
 	}
-	
-	
-	
+
 	public String getType() {
 		return type;
 	}
@@ -56,7 +53,6 @@ public class Animal {
 	public Object clone() {
 		return new Animal(this);
 	}
-
 
 	@Override
 	public String toString() {
